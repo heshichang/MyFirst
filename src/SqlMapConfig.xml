@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  <configuration>
+  	<!-- 自定义别名 -->
+  	<typeAliases>
+  		<!-- 批量定义别名：指定包名，mybatis自动扫描包中pojo类，自定义别名，别名就类名（首字母大写或小写） -->
+  		<package name="com.pojo"/> 
+  	</typeAliases>
+  	<!-- 定义映射器 -->
+  	<!-- <mappers>
+  		批量加载mapper
+  		指定mapper接口的包名，mybatis自动扫描包下边的所有mapper接口进行加载
+  		 <package name="com.Qhit.mapper"/>
+  	</mappers> -->
+  </configuration>
